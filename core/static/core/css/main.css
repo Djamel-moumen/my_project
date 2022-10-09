@@ -1,0 +1,84 @@
+
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#left-panel {
+  background: #edf5f4;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+#sidebar .nav{
+
+}
+
+#sidebar .nav a{
+  background: none;
+  border-bottom: 1px solid #455A64;
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+  margin-right: 16px;
+}
+
+#table-container {
+  padding: 0px 20px;
+}
+
+#chart-container {
+  padding: 0px 150px;
+}
+
+#strategies-container {
+  border: 5px solid #daedeb;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+.buttons-container {
+  margin: 20px 0px;
+}
+
