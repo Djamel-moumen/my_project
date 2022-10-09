@@ -31,7 +31,11 @@ class BSOExtractor:
             if best_sol.get_fitness(alpha, min_supp, min_conf) > ref_sol.get_fitness(alpha, min_supp, min_conf):
                 ref_sol = best_sol
                 chances_left = max_chance
-
+            else:
+                chances_left -= 1
+                if chances_left == 0:
+                    chances_left = max_chance
+                    ref_sol = transactions.get_random_ar(2)
 
     def __calculate_mean(self, sols):
         somme = 0
